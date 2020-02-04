@@ -1,1 +1,2 @@
-school = "digital crafts"
+
+print('hello world')
