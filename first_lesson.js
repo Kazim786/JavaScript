@@ -41,8 +41,14 @@
 
 // }
 
-var age = 21
+var age = 20
 
 if (age >= 21){
     console.log("You are allowed to make a membership")
+}
+else if(age < 18){
+    console.log("Arey yaar")
+}
+else{
+    console.log("Sorr-e")
 }
