@@ -104,17 +104,31 @@
 //     }
 // }
 
-var lottoNum = [];
+// var lottoNum = [];
 
-lottoNum.push(3);
+// lottoNum.push(3);
 
-console.log(lottoNum);
+// console.log(lottoNum);
 
-lottoNum.push(34);
+// lottoNum.push(34);
 
-console.log(lottoNum);
+// console.log(lottoNum);
 
-// lottoNum= [3, 34] if we pop the last one will be deleted.
+// // lottoNum= [3, 34] if we pop the last one will be deleted.
 
-lottoNum.pop();
-console.log(lottoNum);
+// lottoNum.pop();
+// console.log(lottoNum);
+
+var lottoNums = [23, 11, 43, 19, 37, 16];
+// console.log(lottoNums[2]);
+// console.log(lottoNums[20]); //will give you an undefined.
+// lottoNums[1] = 4; //to change a number at any given position.
+// console.log(lottoNums); 
+// var theShiftedNumber = 
+// lottoNums.shift();
+// console.log(theShiftedNumber); //shift removes the first number in the array,
+
+// splicing 
+
+var arrayOfSplicedValues = lottoNums.splice(2, 1);
+console.log(arrayOfSplicedValues);
