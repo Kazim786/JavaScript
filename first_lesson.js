@@ -97,9 +97,24 @@
 //     console.log(count);
 // }
 
-for(var count = 0; count < 10; ++count){
-    console.log(count);
-    for(var inner = 0; inner < 3; inner++){
-        console.log(inner);
-    }
-}
+// for(var count = 0; count < 10; ++count){
+//     console.log(count);
+//     for(var inner = 0; inner < 3; inner++){
+//         console.log(inner);
+//     }
+// }
+
+var lottoNum = [];
+
+lottoNum.push(3);
+
+console.log(lottoNum);
+
+lottoNum.push(34);
+
+console.log(lottoNum);
+
+// lottoNum= [3, 34] if we pop the last one will be deleted.
+
+lottoNum.pop();
+console.log(lottoNum);
