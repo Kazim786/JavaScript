@@ -53,21 +53,39 @@
 //     console.log("Sorr-e")
 // }
 
+// var expr = "Papayas";
+// if(expr == 'Oranges')
+// {
+//     console.log('Oranges are $0.59 a pound.');
+// }
+// else if(expr == 'Mangoes')
+// {
+//     console.log("Mangoes")
+// }
+// else if(expr == 'Papayas')
+// {
+//     console.log('Mangoes and papayas are $2.79 a pound.');
+//     // expected output: "Mangoes and papayas are $2.79 a pound."
+// }
+// else
+// {
+//     console.log('Sorry, we are out of ' + expr + '.');
+// }
 var expr = "Papayas";
-if(expr == 'Oranges')
-{
-    console.log('Oranges are $0.59 a pound.');
-}
-else if(expr == 'Mangoes')
-{
-    console.log("Mangoes")
-}
-else if(expr == 'Papayas')
-{
-    console.log('Mangoes and papayas are $2.79 a pound.');
-    // expected output: "Mangoes and papayas are $2.79 a pound."
-}
-else
-{
-    console.log('Sorry, we are out of ' + expr + '.');
-}
+switch (expr) {
+    case 'Oranges':
+        console.log('Oranges are $0.59 a pound.')
+        
+    
+        break;
+    case "Mangoes":
+        console.log("Mangoes")
+        break;
+    ...
+    case "Papayas":
+        console.log('Mangoes and papayas are $2.79 a pound.');
+        break;
+    [default:
+        console.log('Sorry, we are out of ' + expr + '.');
+        break;
+  }
