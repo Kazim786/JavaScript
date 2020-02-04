@@ -130,5 +130,15 @@ var lottoNums = [23, 11, 43, 19, 37, 16];
 
 // splicing 
 
-var arrayOfSplicedValues = lottoNums.splice(2, 1); //SPLICING MODIFies THE ORIGINAL LIST by removing the elements!!
-console.log(arrayOfSplicedValues);
+// var arrayOfSplicedValues = lottoNums.splice(2, 1); //SPLICING MODIFies THE ORIGINAL LIST by removing the elements!!
+// console.log(arrayOfSplicedValues);
+
+
+//Slicing
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+console.log(animals.slice(2));
+
+//Gives a copy of the original array with the specified portion
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"] //up to 4 but not including 4. So it returns only 2.
