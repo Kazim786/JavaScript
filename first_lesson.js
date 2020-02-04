@@ -41,14 +41,33 @@
 
 // }
 
-var age = 20
+// var age = 20
 
-if (age >= 21){
-    console.log("You are allowed to make a membership")
+// if (age >= 21){
+//     console.log("You are allowed to make a membership")
+// }
+// else if(age < 18){
+//     console.log("Arey yaar")
+// }
+// else{
+//     console.log("Sorr-e")
+// }
+
+var expr = "Papayas";
+if(expr == 'Oranges')
+{
+    console.log('Oranges are $0.59 a pound.');
 }
-else if(age < 18){
-    console.log("Arey yaar")
+else if(expr == 'Mangoes')
+{
+    console.log("Mangoes")
 }
-else{
-    console.log("Sorr-e")
+else if(expr == 'Papayas')
+{
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    // expected output: "Mangoes and papayas are $2.79 a pound."
+}
+else
+{
+    console.log('Sorry, we are out of ' + expr + '.');
 }
