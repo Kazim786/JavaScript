@@ -71,21 +71,28 @@
 // {
 //     console.log('Sorry, we are out of ' + expr + '.');
 // }
-var expr = "Papayas";
-switch (expr) {
-    case 'Oranges':
-        console.log('Oranges are $0.59 a pound.')
+// var expr = "Papayas";
+// switch (expr) {
+//     case 'Oranges':
+//         console.log('Oranges are $0.59 a pound.')
         
     
-        break;
-    case "Mangoes":
-        console.log("Mangoes")
-        break;
+//         break;
+//     case "Mangoes":
+//         console.log("Mangoes")
+//         break;
     
-    case "Papayas":
-        console.log('Mangoes and papayas are $2.79 a pound.');
-        break;
-    default:
-        console.log('Sorry, we are out of ' + expr + '.');
-        break;
-  }
+//     case "Papayas":
+//         console.log('Mangoes and papayas are $2.79 a pound.');
+//         break;
+//     default:
+//         console.log('Sorry, we are out of ' + expr + '.');
+//         break;
+//   }
+
+var count = 0;
+while (count < 10){
+    // count = count + 1; OR count++
+    count++
+    console.log(count);
+}
