@@ -130,5 +130,5 @@ var lottoNums = [23, 11, 43, 19, 37, 16];
 
 // splicing 
 
-var arrayOfSplicedValues = lottoNums.splice(2, 1);
+var arrayOfSplicedValues = lottoNums.splice(2, 1); //SPLICING DOES NOT MODIFY THE ORIGINAL LIST!!
 console.log(arrayOfSplicedValues);
