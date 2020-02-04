@@ -90,9 +90,16 @@
 //         break;
 //   }
 
-var count = 0;
-while (count < 10){
-    // count = count + 1; OR count++
-    count++
+// var count = 0;
+// while (count < 10){
+//     // count = count + 1; OR count++
+//     count++
+//     console.log(count);
+// }
+
+for(var count = 0; count < 10; ++count){
     console.log(count);
+    for(var inner = 0; inner < 3; inner++){
+        console.log(inner);
+    }
 }
