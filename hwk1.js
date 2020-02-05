@@ -12,22 +12,44 @@
 //2
 
     
-function tipAmount(){
-    let question = prompt("What was the level of your service? Good, Fair, or bad?");
+// function tipAmount(bill, serviceLevel){
     
-    if (question == "Good"){
-        var tip = .20;
+    
+//     if (serviceLevel == "Good"){
+//         var tip = bill * .20;
+//     }
+//     else if (serviceLevel == "Fair"){
+//         var tip = bill * .15;
+//     }
+//     else if(serviceLevel == "Bad"){
+//         var tip = bill * .10;
+//     }
+//     else{
+//         console.log("Choose between Good, Fair, or Bad.");
+//     }
+// return(tip);
+// }
+// console.log(tipAmount(100, "Good"));
+
+//3
+function totalBill(bill, serviceLevel){
+    
+    if (serviceLevel == "Good"){
+        var tip = bill * .20;
+        total = tip + bill
+
     }
-    else if (question == "Fair"){
-        var tip = .15;
+    else if (serviceLevel == "Fair"){
+        var tip = bill * .15;
+        total = tip + bill
     }
-    else if(question == "Bad"){
-        var tip = .10;
+    else if(serviceLevel == "Bad"){
+        var tip = bill * .10;
+        total = tip + bill
     }
     else{
         console.log("Choose between Good, Fair, or Bad.");
     }
-return(tip);
+return(total);
 }
-var good = "Good";
-console.log(tipAmount(good))
+console.log(totalBill(100, "Good"));
