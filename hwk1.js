@@ -11,7 +11,18 @@
 
 //2
 function tipAmount(){
-    prompt("What was the level of your service? Good, Fair, or bad?");
-
-
+    var question = prompt("What was the level of your service? Good, Fair, or bad?");
+    if (question == "Good"){
+        var tip = .20;
+    }
+    else if (question == "Fair"){
+        var tip = .15;
+    }
+    else if(question == "Bad"){
+        var tip = .10;
+    }
+    else{
+        console.log("Choose between Good, Fair, or Bad.");
+    }
+return(tip);
 }
