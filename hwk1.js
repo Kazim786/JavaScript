@@ -56,17 +56,30 @@
 
 //4
 
-function printNumbers(1, 10)
-{
-    myList = []
-    var count = 1;
-while (count < 10){
-    console.log(count);
-    count = count + 1;
-    myList.push(count);
+    //number 4 part 1
+num1 = 0;
+function theNumbers(num1,num2){
+    while(num1<num2){
+        num1=num1+1;
+        console.log(num1)
+    }
+    return(num1)
+}
+theOne = 1;
+theTen = 10;
+theNumbers(theOne, theTen);
 
-}
-return count;
-}
-theList = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
- console.log(printNumbers(theList));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
