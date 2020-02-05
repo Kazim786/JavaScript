@@ -32,24 +32,41 @@
 // console.log(tipAmount(100, "Good"));
 
 //3
-function totalBill(bill, serviceLevel){
+// function totalBill(bill, serviceLevel){
     
-    if (serviceLevel == "Good"){
-        var tip = bill * .20;
-        total = tip + bill
+//     if (serviceLevel == "Good"){
+//         var tip = bill * .20;
+//         total = tip + bill
 
-    }
-    else if (serviceLevel == "Fair"){
-        var tip = bill * .15;
-        total = tip + bill
-    }
-    else if(serviceLevel == "Bad"){
-        var tip = bill * .10;
-        total = tip + bill
-    }
-    else{
-        console.log("Choose between Good, Fair, or Bad.");
-    }
-return(total);
+//     }
+//     else if (serviceLevel == "Fair"){
+//         var tip = bill * .15;
+//         total = tip + bill
+//     }
+//     else if(serviceLevel == "Bad"){
+//         var tip = bill * .10;
+//         total = tip + bill
+//     }
+//     else{
+//         console.log("Choose between Good, Fair, or Bad.");
+//     }
+// return(total);
+// }
+// console.log(totalBill(100, "Good"));
+
+//4
+
+function printNumbers(1, 10)
+{
+    myList = []
+    var count = 1;
+while (count < 10){
+    console.log(count);
+    count = count + 1;
+    myList.push(count);
+
 }
-console.log(totalBill(100, "Good"));
+return count;
+}
+theList = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+ console.log(printNumbers(theList));
