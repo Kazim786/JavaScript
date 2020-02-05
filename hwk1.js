@@ -10,8 +10,11 @@
 // console.log(madlib(Kazim, DigitalCrafts));
 
 //2
+
+    
 function tipAmount(){
-    var question = prompt("What was the level of your service? Good, Fair, or bad?");
+    let question = prompt("What was the level of your service? Good, Fair, or bad?");
+    
     if (question == "Good"){
         var tip = .20;
     }
@@ -26,3 +29,5 @@ function tipAmount(){
     }
 return(tip);
 }
+var good = "Good";
+console.log(tipAmount(good))
