@@ -135,10 +135,51 @@ var lottoNums = [23, 11, 43, 19, 37, 16];
 
 
 //Slicing
-var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
-console.log(animals.slice(2));
+// var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// console.log(animals.slice(2));
 
-//Gives a copy of the original array with the specified portion
+// //Gives a copy of the original array with the specified portion
 
-console.log(animals.slice(2, 4));
-// expected output: Array ["camel", "duck"] //up to 4 but not including 4. So it returns only 2.
+// console.log(animals.slice(2, 4));
+// // expected output: Array ["camel", "duck"] //up to 4 but not including 4. So it returns only 2.
+
+// var words = "oh how is it going";
+
+// newArray = words.split('');
+
+// console.log(newArray);
+
+// var words2 = newArray.join(" "); //to join array back and turn it back into a string. 
+// console.log(words2);
+
+//another method to reverse back the split method
+
+// var reverse = "";
+// console.log(reverse);
+// console.log(newArray);
+//split the list onto nothing ('') no spaces between the quotation marks
+//then u do the reverse method
+
+// var newArray = words.split("how"); 
+// console.log(newArray);
+// console.log(newArray.length);
+
+// var myArray = [1, 2, 5, 7, 3];
+// for (var i = 0; i < myArray.length; i++){
+
+//     console.log(myArray[i]);
+// }
+
+var characterSheet = {
+    name: 'tim berners-lee',
+    title: 'sir',
+    powers: 'invent the web'
+}
+console.log(characterSheet["name"])
+
+var characterSheet = {}
+
+characterSheet['name'] = 'Tim berners-lee'
+console.log(characterSheet);
+delete characterSheet["title"];
+console.log(characterSheet);
