@@ -1,10 +1,17 @@
+// var a = 4;
+// var b = 5;
+
+// function add(a, b){
+//     console.log(a + b)
+
+//     return a+b;
+// }
+
+// var result = add(4, 5);
+
 var a = 4;
 var b = 5;
 
-function add(a, b){
-    console.log(a + b)
+var c = a;
 
-    return a+b;
-}
-
-var result = add(4, 5);
+c = 88;
