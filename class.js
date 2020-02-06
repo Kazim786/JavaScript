@@ -15,3 +15,7 @@ var b = 5;
 var c = a;
 
 c = 88;
+
+console.log(a);
+console.log(c);
+
