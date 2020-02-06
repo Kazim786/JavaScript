@@ -19,15 +19,41 @@
 // console.log(a);
 // console.log(c);
 
-myArrayOrig = [1, 2, 3, 6, 7];
+// myArrayOrig = [1, 2, 3, 6, 7];
 
-myArrayCopy = myArrayOrig;
+// myArrayCopy = myArrayOrig;
 
-console.log(myArrayOrig);
-console.log(myArrayCopy);
-myArrayOrig[0] = 99;
-console.log(myArrayOrig);
-console.log(myArrayCopy);
+// console.log(myArrayOrig);
+// console.log(myArrayCopy);
+// myArrayOrig[0] = 99;
+// console.log(myArrayOrig);
+// console.log(myArrayCopy);
 //the myArrayCopy also changed because its being passed by reference.
 
 
+//class backs
+function myFunc(){
+    console.log("hello");
+    return "hello";
+}
+let hello = myFunc();
+console.log(myFunc);
+
+let add = function(num1, num2){
+    return num1 + num2;
+}
+
+let substract = function(num1, num2){
+    return num1-num2;
+}
+
+let calc = function(num1, num2, opFunction){
+    return opFunction(num1, num2)
+
+}
+
+let result = calc(3, 4, add) //add here isnt the function add because the parenthesis werent used
+console.log(result);
+
+let sum = calc(3, 4, substract)
+console.log(sum)
