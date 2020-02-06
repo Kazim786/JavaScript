@@ -32,28 +32,41 @@
 
 
 //class backs
-function myFunc(){
-    console.log("hello");
-    return "hello";
+// function myFunc(){
+//     console.log("hello");
+//     return "hello";
+// }
+// let hello = myFunc();
+// console.log(myFunc);
+
+// let add = function(num1, num2){
+//     return num1 + num2;
+// }
+
+// let substract = function(num1, num2){
+//     return num1-num2;
+// }
+
+// let calc = function(num1, num2, opFunction){
+//     return opFunction(num1, num2)
+
+// }
+
+// let result = calc(3, 4, add) //add here isnt the function add because the parenthesis werent used
+// console.log(result);
+
+// let sum = calc(3, 4, substract)
+// console.log(sum)
+
+//Arrays
+
+let arr = [2, 5, 6, 7, 8];
+
+for (let index = 0; index < arr.length; index++){
+    console.log(arr[index])
 }
-let hello = myFunc();
-console.log(myFunc);
 
-let add = function(num1, num2){
-    return num1 + num2;
-}
+arr.forEach(function(element){
+    console.log(element);
+})
 
-let substract = function(num1, num2){
-    return num1-num2;
-}
-
-let calc = function(num1, num2, opFunction){
-    return opFunction(num1, num2)
-
-}
-
-let result = calc(3, 4, add) //add here isnt the function add because the parenthesis werent used
-console.log(result);
-
-let sum = calc(3, 4, substract)
-console.log(sum)
