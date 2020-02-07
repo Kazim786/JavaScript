@@ -7,8 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="1" style="background-color: yellow; height: 300px; width: 100%;">
+    <div id="1" style="background-color: yellow; height: 300px; width: 100%;"
+    onclick="alert('hello world')" onmouseover="changeBackground()" onmouseout="restoreBackground()">
         hello world
     </div>
+
+    <script>
+        function changeBackground(){
+            let divNode = document.getElementById('1');
+            divNode.setAttribute("style", "background-color: green;")
+        }
+
+        
+    </script>
 </body>
 </html>
