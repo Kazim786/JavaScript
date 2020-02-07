@@ -15,10 +15,11 @@
     <script>
         let divNode = document.getElementById('1');
 
-        divNode.addEventListener('click', function(e){
+        divNode.addEventListener('mouseover', function(e){
         console.log(e);
-        alert('hello' + e.srcElement.innerText)
-        }, true)
+        divNode.setAttribute('style', 'background-color: pink; width: 100; height: 300;)
+        // alert('hello' + e.srcElement.innerText)
+        // }, true)
 
 
 
