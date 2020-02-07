@@ -21,7 +21,13 @@
         }
 
         divNode.onmouseover = function(){
-            window.alert('hello world');
+            divNode.setAttribute("style", "background-color: green;")
+        }
+
+        divNode.onmouseout = function(){
+            divNode.setAttribute("style", "background-color: yellow;")
+
+
         }
             //different way of doing this vvv
 
