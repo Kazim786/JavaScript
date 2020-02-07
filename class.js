@@ -149,9 +149,9 @@
 //         })
 //         console.log(newArray);
 //Some array, returns true or false.
-let arr = [0, 1, 2, 3, 4, 5];
-let someLT2 = arr.some(function(element){
-    return element < 5;
+// let arr = [0, 1, 2, 3, 4, 5];
+// let someLT2 = arr.some(function(element){
+//     return element < 5;
 
-})        
-console.log(someLT2);
+// })        
+// console.log(someLT2);
