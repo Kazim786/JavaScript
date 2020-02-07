@@ -1,0 +1,17 @@
+body{
+    height: 5%;
+    
+
+}
+
+#wrapper{
+
+}
+
+#main-navigation{
+    display: flex;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
