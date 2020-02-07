@@ -13,22 +13,30 @@
     </div>
 
     <script>
-
         let divNode = document.getElementById('1');
-        divNode.onclick = function(){
 
-            window.alert('hello world');
-        }
-
-        divNode.onmouseover = function(){
-            divNode.setAttribute("style", "background-color: green;")
-        }
-
-        divNode.onmouseout = function(){
-            divNode.setAttribute("style", "background-color: yellow;")
+        divNode.addEventListener('click', function(e){
+        console.log(e);
+        alert('hello' + e.srcElement.innerText)
+        }, true)
 
 
-        }
+
+        // let divNode = document.getElementById('1');
+        // divNode.onclick = function(){
+
+        //     window.alert('hello world');
+        // }
+
+        // divNode.onmouseover = function(){
+        //     divNode.setAttribute("style", "background-color: green;")
+        // }
+
+        // divNode.onmouseout = function(){
+        //     divNode.setAttribute("style", "background-color: yellow;")
+
+
+        // }
             //different way of doing this vvv
 
         // function changeBackground(){
