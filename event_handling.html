@@ -13,16 +13,28 @@
     </div>
 
     <script>
-        function changeBackground(){
-            let divNode = document.getElementById('1');
-            divNode.setAttribute("style", "background-color: green;")
+
+        let divNode = document.getElementById('1');
+        divNode.onclick = function(){
+
+            window.alert('hello world');
         }
 
-        function restoreBackground(){
-            let divNode = document.getElementById('1');
-            divNode.setAttribute("style", "background-color: yellow;")
-            
+        divNode.onmouseover = function(){
+            window.alert('hello world');
         }
+
+
+        // function changeBackground(){
+        //     let divNode = document.getElementById('1');
+        //     divNode.setAttribute("style", "background-color: green;")
+        // }
+
+        // function restoreBackground(){
+        //     let divNode = document.getElementById('1');
+        //     divNode.setAttribute("style", "background-color: yellow;")
+
+        // }
     </script>
 </body>
 </html>
